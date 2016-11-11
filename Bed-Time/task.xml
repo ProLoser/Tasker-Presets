@@ -1,0 +1,53 @@
+<TaskerData sr="" dvi="1" tv="4.8u5m">
+	<Task sr="task2">
+		<cdate>1478838865350</cdate>
+		<edate>1478898804971</edate>
+		<id>2</id>
+		<nme>Bed Time</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>2093383131</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ACTION_TYPE:String>HUE_ACTION</ACTION_TYPE:String>
+					<ACTION_TYPE:String-type>java.lang.String</ACTION_TYPE:String-type>
+					<ALL_LIGHTS_SELECTED:Boolean>false</ALL_LIGHTS_SELECTED:Boolean>
+					<ALL_LIGHTS_SELECTED:Boolean-type>java.lang.Boolean</ALL_LIGHTS_SELECTED:Boolean-type>
+					<com.cuberob.AutoHue.extra.INT_VERSION_CODE>107</com.cuberob.AutoHue.extra.INT_VERSION_CODE>
+					<com.cuberob.AutoHue.extra.INT_VERSION_CODE-type>java.lang.Integer</com.cuberob.AutoHue.extra.INT_VERSION_CODE-type>
+					<com.cuberob.autohue.extra.COMMAND_ID>4</com.cuberob.autohue.extra.COMMAND_ID>
+					<com.cuberob.autohue.extra.COMMAND_ID-type>java.lang.Integer</com.cuberob.autohue.extra.COMMAND_ID-type>
+					<com.cuberob.autohue.extra.IPADDRESS>192.168.1.23</com.cuberob.autohue.extra.IPADDRESS>
+					<com.cuberob.autohue.extra.IPADDRESS-type>java.lang.String</com.cuberob.autohue.extra.IPADDRESS-type>
+					<com.cuberob.autohue.extra.JSON_COMMAND>{"on":false}</com.cuberob.autohue.extra.JSON_COMMAND>
+					<com.cuberob.autohue.extra.JSON_COMMAND-type>java.lang.String</com.cuberob.autohue.extra.JSON_COMMAND-type>
+					<com.cuberob.autohue.extra.LIGHT_NAME>Bedroom - Bed, Bedroom - Door, Bedroom - Window, Bed</com.cuberob.autohue.extra.LIGHT_NAME>
+					<com.cuberob.autohue.extra.LIGHT_NAME-type>java.lang.String</com.cuberob.autohue.extra.LIGHT_NAME-type>
+					<com.cuberob.autohue.extra.LIGHT_POSITIONS_LIST>[7,2,1,3]</com.cuberob.autohue.extra.LIGHT_POSITIONS_LIST>
+					<com.cuberob.autohue.extra.LIGHT_POSITIONS_LIST-type>java.lang.String</com.cuberob.autohue.extra.LIGHT_POSITIONS_LIST-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>IP: 192.168.1.23
+Light: Bedroom - Bed, Bedroom - Door, Bedro</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.cuberob.autohue.extra.JSON_COMMAND</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.cuberob.autohue</Str>
+			<Str sr="arg2" ve="3">com.cuberob.autohue.Activities.EditActivity</Str>
+			<Int sr="arg3" val="5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">Good night sir</Str>
+			<Str sr="arg1" ve="3">com.google.android.tts:eng-gbr</Str>
+			<Int sr="arg2" val="5"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
