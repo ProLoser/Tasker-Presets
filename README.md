@@ -15,4 +15,6 @@ Please [open an issue](https://github.com/ProLoser/Tasker-Presets/issues) if you
 6. Follow Setup instructions for the preset.
 
 ### Contributing
-I am open to requests. However if you'd like to contribute, submit a PR with your own presets. Do not submit your entire backup.
+In order for Tasker to see the file (file location doesn't matter), the file has to follow a naming convention:
+A Task XML filename has to end with `tsk.xml`. Example: `myexample.tsk.xml`
+A Profile XML filename has to end with `prf.xml`. Example: `myexample.prf.xml`
