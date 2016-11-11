@@ -1,0 +1,91 @@
+<TaskerData sr="" dvi="1" tv="4.8u5m">
+	<Profile sr="prof7" ve="2">
+		<cdate>1478839848451</cdate>
+		<edate>1478884324612</edate>
+		<flags>2</flags>
+		<id>7</id>
+		<mid0>2</mid0>
+		<Event sr="con0" ve="2">
+			<code>41628340</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Contains>false</Contains>
+					<Contains-type>java.lang.Boolean</Contains-type>
+					<LastCommandIdInvert>false</LastCommandIdInvert>
+					<LastCommandIdInvert-type>java.lang.Boolean</LastCommandIdInvert-type>
+					<LastCommandIdRegex>false</LastCommandIdRegex>
+					<LastCommandIdRegex-type>java.lang.Boolean</LastCommandIdRegex-type>
+					<NotCancelSearchGoogleNow>false</NotCancelSearchGoogleNow>
+					<NotCancelSearchGoogleNow-type>java.lang.Boolean</NotCancelSearchGoogleNow-type>
+					<NotOnContinuous>false</NotOnContinuous>
+					<NotOnContinuous-type>java.lang.Boolean</NotOnContinuous-type>
+					<NotOnNormal>false</NotOnNormal>
+					<NotOnNormal-type>java.lang.Boolean</NotOnNormal-type>
+					<Precision>&lt;null&gt;</Precision>
+					<Precision-type>java.lang.String</Precision-type>
+					<ProfileName>&lt;null&gt;</ProfileName>
+					<ProfileName-type>java.lang.String</ProfileName-type>
+					<Source>&lt;null&gt;</Source>
+					<Source-type>java.lang.String</Source-type>
+					<Substitutions>&lt;null&gt;</Substitutions>
+					<Substitutions-type>java.lang.String</Substitutions-type>
+					<TriggerWord>&lt;null&gt;</TriggerWord>
+					<TriggerWord-type>java.lang.String</TriggerWord-type>
+					<TriggerWordExact>false</TriggerWordExact>
+					<TriggerWordExact-type>java.lang.Boolean</TriggerWordExact-type>
+					<TriggerWordRegex>false</TriggerWordRegex>
+					<TriggerWordRegex-type>java.lang.Boolean</TriggerWordRegex-type>
+					<VariableNames>&lt;null&gt;</VariableNames>
+					<VariableNames-type>java.lang.String</VariableNames-type>
+					<VariableValues>&lt;null&gt;</VariableValues>
+					<VariableValues-type>java.lang.String</VariableValues-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Command: "bed\w?time|good\w?night (regex)"</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<configcommand>bed\w?time|good\w?night</configcommand>
+					<configcommand-type>java.lang.String</configcommand-type>
+					<configcommandid>&lt;null&gt;</configcommandid>
+					<configcommandid-type>java.lang.String</configcommandid-type>
+					<configcommandinvert>false</configcommandinvert>
+					<configcommandinvert-type>java.lang.Boolean</configcommandinvert-type>
+					<configexactsub>false</configexactsub>
+					<configexactsub-type>java.lang.Boolean</configexactsub-type>
+					<configlastcommand>&lt;null&gt;</configlastcommand>
+					<configlastcommand-type>java.lang.String</configlastcommand-type>
+					<configregexsub>true</configregexsub>
+					<configregexsub-type>java.lang.Boolean</configregexsub-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%avcomm
+First recognized Command
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%avcommnofilter
+First Command Without Filter
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%avcomms()
+All recognized commands
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%avcommsnofilter()
+All recognized commands without filter
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%avsource
+Source of the Voice Command
+Can be normal, continuous, test or googlenow&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%avword()
+Word Array
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%regexgroups()
+Regex Groups
+Regex Groups&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%regexmatch
+Regex Match
+Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>configcommand plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>b73986a2-cc2a-4081-a515-9ad291ef768c</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autovoice.intent.IntentReceiveVoiceEvent</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autovoice</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autovoice.activity.ActivityConfigReceiveVoiceEvent</Str>
+		</Event>
+	</Profile>
+</TaskerData>
