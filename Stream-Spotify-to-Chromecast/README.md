@@ -2,6 +2,7 @@
 
 ### Requirements
 1. [AutoInput](https://play.google.com/store/apps/details?id=com.joaomgcd.autoinput)
+2. [AutoVoice](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice) for voice triggering profile
 
 ### Setup
 1. Customize the last action in the task to select the Chromecast device of your choosing.
