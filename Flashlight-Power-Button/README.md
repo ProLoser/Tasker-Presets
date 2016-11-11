@@ -3,3 +3,4 @@ With your screen off and your device locked press the power button three times i
 
 ### Setup
 https://www.reddit.com/r/tasker/comments/2ze4uq/guide_controlling_flashlight_via_the_powerbutton/
+https://gist.github.com/Glutanimate/42ce2a327f32c744dc45
