@@ -1,0 +1,578 @@
+<TaskerData sr="" dvi="1" tv="4.6u3m">
+<Profile sr="prof16" ve="2">
+<cdate>1430000693554</cdate>
+<edate>1430721403655</edate>
+<id>16</id>
+<mid0>15</mid0>
+<nme>Aux Text</nme>
+<Event sr="con0" ve="2">
+<code>7</code>
+<pri>0</pri>
+<Int sr="arg0" val="0"/>
+<Str sr="arg1" ve="3"/>
+<Str sr="arg2" ve="3"/>
+</Event>
+<State sr="con1" ve="2">
+<code>30</code>
+<Int sr="arg0" val="0"/>
+</State>
+</Profile>
+<Task sr="task15">
+<cdate>1425007056839</cdate>
+<edate>1430721403655</edate>
+<id>15</id>
+<nme>Read Text</nme>
+<pri>10</pri>
+<Action sr="act0" ve="7">
+<code>549</code>
+<Str sr="arg0" ve="3">%STD_OUT</Str>
+<Int sr="arg1" val="0"/>
+</Action>
+<Action sr="act1" ve="7">
+<code>11820</code>
+<Bundle sr="arg0">
+<Vals sr="val">
+<com.intangibleobject.securesettings.plugin.extra.BLURB>runcheck</com.intangibleobject.securesettings.plugin.extra.BLURB>
+<com.intangibleobject.securesettings.plugin.extra.BLURB-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.BLURB-type>
+<com.intangibleobject.securesettings.plugin.extra.CMD_DISPLAY_OUTPUT>false</com.intangibleobject.securesettings.plugin.extra.CMD_DISPLAY_OUTPUT>
+<com.intangibleobject.securesettings.plugin.extra.CMD_DISPLAY_OUTPUT-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.CMD_DISPLAY_OUTPUT-type>
+<com.intangibleobject.securesettings.plugin.extra.CMD_DISPLAY_TOAST>false</com.intangibleobject.securesettings.plugin.extra.CMD_DISPLAY_TOAST>
+<com.intangibleobject.securesettings.plugin.extra.CMD_DISPLAY_TOAST-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.CMD_DISPLAY_TOAST-type>
+<com.intangibleobject.securesettings.plugin.extra.CMD_NAME>runcheck</com.intangibleobject.securesettings.plugin.extra.CMD_NAME>
+<com.intangibleobject.securesettings.plugin.extra.CMD_NAME-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.CMD_NAME-type>
+<com.intangibleobject.securesettings.plugin.extra.CMD_REPLACE_VARS>false</com.intangibleobject.securesettings.plugin.extra.CMD_REPLACE_VARS>
+<com.intangibleobject.securesettings.plugin.extra.CMD_REPLACE_VARS-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.CMD_REPLACE_VARS-type>
+<com.intangibleobject.securesettings.plugin.extra.CMD_STDOUT>%STD_OUT</com.intangibleobject.securesettings.plugin.extra.CMD_STDOUT>
+<com.intangibleobject.securesettings.plugin.extra.CMD_STDOUT-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.CMD_STDOUT-type>
+<com.intangibleobject.securesettings.plugin.extra.CMD_TO_RUN>ps | grep -I com.spotify</com.intangibleobject.securesettings.plugin.extra.CMD_TO_RUN>
+<com.intangibleobject.securesettings.plugin.extra.CMD_TO_RUN-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.CMD_TO_RUN-type>
+<com.intangibleobject.securesettings.plugin.extra.CMD_USES_ROOT>false</com.intangibleobject.securesettings.plugin.extra.CMD_USES_ROOT>
+<com.intangibleobject.securesettings.plugin.extra.CMD_USES_ROOT-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.CMD_USES_ROOT-type>
+<com.intangibleobject.securesettings.plugin.extra.KEEP_DEVICE_AWAKE>true</com.intangibleobject.securesettings.plugin.extra.KEEP_DEVICE_AWAKE>
+<com.intangibleobject.securesettings.plugin.extra.KEEP_DEVICE_AWAKE-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.KEEP_DEVICE_AWAKE-type>
+<com.intangibleobject.securesettings.plugin.extra.SETTING>run_cmd</com.intangibleobject.securesettings.plugin.extra.SETTING>
+<com.intangibleobject.securesettings.plugin.extra.SETTING-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.SETTING-type>
+<com.twofortyfouram.locale.intent.extra.BLURB>runcheck</com.twofortyfouram.locale.intent.extra.BLURB>
+<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+</Vals>
+</Bundle>
+<Str sr="arg1" ve="3">com.intangibleobject.securesettings.plugin</Str>
+<Str sr="arg2" ve="3">Secure Settings</Str>
+<Int sr="arg3" val="0"/>
+</Action>
+<Action sr="act10" ve="7">
+<code>559</code>
+<Str sr="arg0" ve="3">%SMSRN said %SMSRB</Str>
+<Str sr="arg1" ve="3">com.google.android.tts:eng-usa</Str>
+<Int sr="arg2" val="3"/>
+<Int sr="arg3" val="5"/>
+<Int sr="arg4" val="5"/>
+<Int sr="arg5" val="1"/>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="1"/>
+</Action>
+<Action sr="act11" ve="7">
+<code>550</code>
+<Str sr="arg0" ve="3">%SMSRN</Str>
+<Str sr="arg1" ve="3">%SMSRB</Str>
+<Str sr="arg2" ve="3"/>
+<Str sr="arg3" ve="3">Popup</Str>
+<Int sr="arg4" val="10"/>
+<Int sr="arg5" val="1"/>
+</Action>
+<Action sr="act12" ve="7">
+<code>559</code>
+<Str sr="arg0" ve="3">Reply or call back?</Str>
+<Str sr="arg1" ve="3">com.google.android.tts:eng-usa</Str>
+<Int sr="arg2" val="3"/>
+<Int sr="arg3" val="5"/>
+<Int sr="arg4" val="5"/>
+<Int sr="arg5" val="1"/>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="0"/>
+</Action>
+<Action sr="act13" ve="7">
+<code>903</code>
+<Str sr="arg0" ve="3">Reply or call back?</Str>
+<Int sr="arg1" val="0"/>
+<Int sr="arg2" val="1"/>
+<Int sr="arg3" val="20"/>
+</Action>
+<Action sr="act14" ve="7">
+<code>37</code>
+<ConditionList sr="if">
+<Condition sr="c0" ve="3">
+<lhs>%VOICE</lhs>
+<op>2</op>
+<rhs>*call*</rhs>
+</Condition>
+</ConditionList>
+</Action>
+<Action sr="act15" ve="7">
+<code>549</code>
+<Str sr="arg0" ve="3">%VOICE</Str>
+<Int sr="arg1" val="0"/>
+</Action>
+<Action sr="act16" ve="7">
+<code>547</code>
+<Str sr="arg0" ve="3">%call</Str>
+<Str sr="arg1" ve="3">1</Str>
+<Int sr="arg2" val="0"/>
+<Int sr="arg3" val="0"/>
+</Action>
+<Action sr="act17" ve="7">
+<code>37</code>
+<ConditionList sr="if">
+<Condition sr="c0" ve="3">
+<lhs>%STD_OUT</lhs>
+<op>2</op>
+<rhs>*spotify*</rhs>
+</Condition>
+</ConditionList>
+</Action>
+<Action sr="act18" ve="7">
+<code>30</code>
+<Int sr="arg0" val="500"/>
+<Int sr="arg1" val="0"/>
+<Int sr="arg2" val="0"/>
+<Int sr="arg3" val="0"/>
+<Int sr="arg4" val="0"/>
+</Action>
+<Action sr="act19" ve="7">
+<code>877</code>
+<Str sr="arg0" ve="3">com.spotify.mobile.android.ui.widget.PLAY</Str>
+<Int sr="arg1" val="0"/>
+<Str sr="arg2" ve="3"/>
+<Str sr="arg3" ve="3"/>
+<Str sr="arg4" ve="3"/>
+<Str sr="arg5" ve="3"/>
+<Str sr="arg6" ve="3">com.spotify.music</Str>
+<Str sr="arg7" ve="3"/>
+<Int sr="arg8" val="0"/>
+</Action>
+<Action sr="act2" ve="7">
+<code>30</code>
+<Int sr="arg0" val="0"/>
+<Int sr="arg1" val="3"/>
+<Int sr="arg2" val="0"/>
+<Int sr="arg3" val="0"/>
+<Int sr="arg4" val="0"/>
+</Action>
+<Action sr="act20" ve="7">
+<code>38</code>
+</Action>
+<Action sr="act21" ve="7">
+<code>30</code>
+<Int sr="arg0" val="500"/>
+<Int sr="arg1" val="0"/>
+<Int sr="arg2" val="0"/>
+<Int sr="arg3" val="0"/>
+<Int sr="arg4" val="0"/>
+</Action>
+<Action sr="act22" ve="7">
+<code>90</code>
+<Str sr="arg0" ve="3">%SMSRF</Str>
+<Int sr="arg1" val="1"/>
+</Action>
+<Action sr="act23" ve="7">
+<code>43</code>
+</Action>
+<Action sr="act24" ve="7">
+<code>37</code>
+<ConditionList sr="if">
+<Condition sr="c0" ve="3">
+<lhs>%VOICE</lhs>
+<op>3</op>
+<rhs>*send*/*message*/*reply*/*tell*/</rhs>
+</Condition>
+</ConditionList>
+</Action>
+<Action sr="act25" ve="7">
+<code>549</code>
+<Str sr="arg0" ve="3">%VOICE</Str>
+<Int sr="arg1" val="0"/>
+</Action>
+<Action sr="act26" ve="7">
+<code>559</code>
+<Str sr="arg0" ve="3">Cancelled</Str>
+<Str sr="arg1" ve="3">com.google.android.tts:eng-usa</Str>
+<Int sr="arg2" val="3"/>
+<Int sr="arg3" val="5"/>
+<Int sr="arg4" val="5"/>
+<Int sr="arg5" val="1"/>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="0"/>
+</Action>
+<Action sr="act27" ve="7">
+<code>43</code>
+</Action>
+<Action sr="act28" ve="7">
+<code>549</code>
+<Str sr="arg0" ve="3">%VOICE</Str>
+<Int sr="arg1" val="0"/>
+</Action>
+<Action sr="act29" ve="7">
+<code>559</code>
+<label>t3</label>
+<Str sr="arg0" ve="3">What's your message?</Str>
+<Str sr="arg1" ve="3">com.google.android.tts:eng-usa</Str>
+<Int sr="arg2" val="3"/>
+<Int sr="arg3" val="5"/>
+<Int sr="arg4" val="5"/>
+<Int sr="arg5" val="1"/>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="0"/>
+</Action>
+<Action sr="act3" ve="7">
+<code>37</code>
+<ConditionList sr="if">
+<Condition sr="c0" ve="3">
+<lhs>%STD_OUT</lhs>
+<op>2</op>
+<rhs>*spotify*</rhs>
+</Condition>
+</ConditionList>
+</Action>
+<Action sr="act30" ve="7">
+<code>903</code>
+<label>t1</label>
+<Str sr="arg0" ve="3">What's your message?</Str>
+<Int sr="arg1" val="0"/>
+<Int sr="arg2" val="1"/>
+<Int sr="arg3" val="30"/>
+</Action>
+<Action sr="act31" ve="7">
+<code>37</code>
+<ConditionList sr="if">
+<Condition sr="c0" ve="3">
+<lhs>%VOICE</lhs>
+<op>13</op>
+<rhs></rhs>
+</Condition>
+</ConditionList>
+</Action>
+<Action sr="act32" ve="7">
+<code>559</code>
+<Str sr="arg0" ve="3">Didn't catch that. Let's try again.</Str>
+<Str sr="arg1" ve="3">com.google.android.tts:eng-usa</Str>
+<Int sr="arg2" val="3"/>
+<Int sr="arg3" val="5"/>
+<Int sr="arg4" val="5"/>
+<Int sr="arg5" val="1"/>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="0"/>
+</Action>
+<Action sr="act33" ve="7">
+<code>135</code>
+<Int sr="arg0" val="1"/>
+<Int sr="arg1" val="22"/>
+<Str sr="arg2" ve="3">t1</Str>
+</Action>
+<Action sr="act34" ve="7">
+<code>43</code>
+</Action>
+<Action sr="act35" ve="7">
+<code>547</code>
+<Str sr="arg0" ve="3">%MessageContent</Str>
+<Str sr="arg1" ve="3">%VOICE</Str>
+<Int sr="arg2" val="0"/>
+<Int sr="arg3" val="0"/>
+</Action>
+<Action sr="act36" ve="7">
+<code>549</code>
+<Str sr="arg0" ve="3">%VOICE</Str>
+<Int sr="arg1" val="0"/>
+</Action>
+<Action sr="act37" ve="7">
+<code>559</code>
+<Str sr="arg0" ve="3">Your said %MessageContent.</Str>
+<Str sr="arg1" ve="3">com.google.android.tts:eng-usa</Str>
+<Int sr="arg2" val="3"/>
+<Int sr="arg3" val="5"/>
+<Int sr="arg4" val="7"/>
+<Int sr="arg5" val="1"/>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="1"/>
+</Action>
+<Action sr="act38" ve="7">
+<code>550</code>
+<Str sr="arg0" ve="3">You said</Str>
+<Str sr="arg1" ve="3">%MessageContent</Str>
+<Str sr="arg2" ve="3"/>
+<Str sr="arg3" ve="3">Popup</Str>
+<Int sr="arg4" val="8"/>
+<Int sr="arg5" val="1"/>
+</Action>
+<Action sr="act39" ve="7">
+<code>559</code>
+<Str sr="arg0" ve="3">Do you want to send it?</Str>
+<Str sr="arg1" ve="3">com.google.android.tts:eng-usa</Str>
+<Int sr="arg2" val="3"/>
+<Int sr="arg3" val="5"/>
+<Int sr="arg4" val="7"/>
+<Int sr="arg5" val="1"/>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="0"/>
+</Action>
+<Action sr="act4" ve="7">
+<code>877</code>
+<Str sr="arg0" ve="3">com.spotify.mobile.android.ui.widget.PLAY</Str>
+<Int sr="arg1" val="0"/>
+<Str sr="arg2" ve="3"/>
+<Str sr="arg3" ve="3"/>
+<Str sr="arg4" ve="3"/>
+<Str sr="arg5" ve="3"/>
+<Str sr="arg6" ve="3">com.spotify.music</Str>
+<Str sr="arg7" ve="3"/>
+<Int sr="arg8" val="0"/>
+</Action>
+<Action sr="act40" ve="7">
+<code>903</code>
+<label>t2</label>
+<Str sr="arg0" ve="3">Send the message?</Str>
+<Int sr="arg1" val="0"/>
+<Int sr="arg2" val="1"/>
+<Int sr="arg3" val="30"/>
+</Action>
+<Action sr="act41" ve="7">
+<code>37</code>
+<ConditionList sr="if">
+<Condition sr="c0" ve="3">
+<lhs>%VOICE</lhs>
+<op>2</op>
+<rhs>*send*/*yes*/*ok*/*yup*/*yeah*/*go ahead*</rhs>
+</Condition>
+</ConditionList>
+</Action>
+<Action sr="act42" ve="7">
+<code>549</code>
+<Str sr="arg0" ve="3">%VOICE</Str>
+<Int sr="arg1" val="0"/>
+</Action>
+<Action sr="act43" ve="7">
+<code>41</code>
+<Str sr="arg0" ve="3">%SMSRF</Str>
+<Str sr="arg1" ve="3">%MessageContent</Str>
+<Int sr="arg2" val="0"/>
+</Action>
+<Action sr="act44" ve="7">
+<code>559</code>
+<Str sr="arg0" ve="3">Message sent</Str>
+<Str sr="arg1" ve="3">com.google.android.tts:eng-usa</Str>
+<Int sr="arg2" val="3"/>
+<Int sr="arg3" val="5"/>
+<Int sr="arg4" val="5"/>
+<Int sr="arg5" val="1"/>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="0"/>
+</Action>
+<Action sr="act45" ve="7">
+<code>43</code>
+</Action>
+<Action sr="act46" ve="7">
+<code>37</code>
+<ConditionList sr="if">
+<Condition sr="c0" ve="3">
+<lhs>%VOICE</lhs>
+<op>3</op>
+<rhs>*no*/*nah*/*nope*/*cancel*/*go home*/*nevermind*</rhs>
+</Condition>
+</ConditionList>
+</Action>
+<Action sr="act47" ve="7">
+<code>549</code>
+<Str sr="arg0" ve="3">%VOICE</Str>
+<Int sr="arg1" val="0"/>
+</Action>
+<Action sr="act48" ve="7">
+<code>559</code>
+<Str sr="arg0" ve="3">Didn't catch that. Do you want me to send the message?</Str>
+<Str sr="arg1" ve="3">com.google.android.tts:eng-usa</Str>
+<Int sr="arg2" val="3"/>
+<Int sr="arg3" val="5"/>
+<Int sr="arg4" val="5"/>
+<Int sr="arg5" val="1"/>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="0"/>
+</Action>
+<Action sr="act49" ve="7">
+<code>135</code>
+<Int sr="arg0" val="1"/>
+<Int sr="arg1" val="25"/>
+<Str sr="arg2" ve="3">t2</Str>
+</Action>
+<Action sr="act5" ve="7">
+<code>38</code>
+</Action>
+<Action sr="act50" ve="7">
+<code>43</code>
+</Action>
+<Action sr="act51" ve="7">
+<code>549</code>
+<Str sr="arg0" ve="3">%VOICE</Str>
+<Int sr="arg1" val="0"/>
+</Action>
+<Action sr="act52" ve="7">
+<code>559</code>
+<Str sr="arg0" ve="3">Do you want to rewrite the message?</Str>
+<Str sr="arg1" ve="3">com.google.android.tts:eng-usa</Str>
+<Int sr="arg2" val="3"/>
+<Int sr="arg3" val="5"/>
+<Int sr="arg4" val="5"/>
+<Int sr="arg5" val="1"/>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="0"/>
+</Action>
+<Action sr="act53" ve="7">
+<code>903</code>
+<Str sr="arg0" ve="3">Re-enter the message?</Str>
+<Int sr="arg1" val="0"/>
+<Int sr="arg2" val="1"/>
+<Int sr="arg3" val="30"/>
+</Action>
+<Action sr="act54" ve="7">
+<code>37</code>
+<ConditionList sr="if">
+<Condition sr="c0" ve="3">
+<lhs>%VOICE</lhs>
+<op>2</op>
+<rhs>*yes*/*ok*/*yup*/*yeah*/*go ahead*</rhs>
+</Condition>
+</ConditionList>
+</Action>
+<Action sr="act55" ve="7">
+<code>549</code>
+<Str sr="arg0" ve="3">%VOICE</Str>
+<Int sr="arg1" val="0"/>
+</Action>
+<Action sr="act56" ve="7">
+<code>135</code>
+<Int sr="arg0" val="1"/>
+<Int sr="arg1" val="14"/>
+<Str sr="arg2" ve="3">t3</Str>
+</Action>
+<Action sr="act57" ve="7">
+<code>38</code>
+</Action>
+<Action sr="act58" ve="7">
+<code>38</code>
+</Action>
+<Action sr="act59" ve="7">
+<code>38</code>
+</Action>
+<Action sr="act6" ve="7">
+<code>559</code>
+<Str sr="arg0" ve="3">Read?</Str>
+<Str sr="arg1" ve="3">com.google.android.tts:eng-usa</Str>
+<Int sr="arg2" val="3"/>
+<Int sr="arg3" val="5"/>
+<Int sr="arg4" val="5"/>
+<Int sr="arg5" val="1"/>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="0"/>
+</Action>
+<Action sr="act60" ve="7">
+<code>38</code>
+</Action>
+<Action sr="act61" ve="7">
+<code>38</code>
+</Action>
+<Action sr="act62" ve="7">
+<code>38</code>
+</Action>
+<Action sr="act63" ve="7">
+<code>43</code>
+<ConditionList sr="if">
+<Condition sr="c0" ve="3">
+<lhs>%VOICE</lhs>
+<op>3</op>
+<rhs>*no*/*nope*/*cancel*/*exit*</rhs>
+</Condition>
+</ConditionList>
+</Action>
+<Action sr="act64" ve="7">
+<code>559</code>
+<Str sr="arg0" ve="3">Didn't catch that. Let's try again.</Str>
+<Str sr="arg1" ve="3">com.google.android.tts:eng-usa</Str>
+<Int sr="arg2" val="3"/>
+<Int sr="arg3" val="5"/>
+<Int sr="arg4" val="5"/>
+<Int sr="arg5" val="1"/>
+<Int sr="arg6" val="0"/>
+<Int sr="arg7" val="0"/>
+</Action>
+<Action sr="act65" ve="7">
+<code>135</code>
+<Int sr="arg0" val="1"/>
+<Int sr="arg1" val="22"/>
+<Str sr="arg2" ve="3">t4</Str>
+</Action>
+<Action sr="act66" ve="7">
+<code>38</code>
+</Action>
+<Action sr="act67" ve="7">
+<code>37</code>
+<ConditionList sr="if">
+<bool0>And</bool0>
+<Condition sr="c0" ve="3">
+<lhs>%STD_OUT</lhs>
+<op>2</op>
+<rhs>*spotify*</rhs>
+</Condition>
+<Condition sr="c1" ve="3">
+<lhs>%call</lhs>
+<op>3</op>
+<rhs>1</rhs>
+</Condition>
+</ConditionList>
+</Action>
+<Action sr="act68" ve="7">
+<code>30</code>
+<Int sr="arg0" val="500"/>
+<Int sr="arg1" val="0"/>
+<Int sr="arg2" val="0"/>
+<Int sr="arg3" val="0"/>
+<Int sr="arg4" val="0"/>
+</Action>
+<Action sr="act69" ve="7">
+<code>877</code>
+<Str sr="arg0" ve="3">com.spotify.mobile.android.ui.widget.PLAY</Str>
+<Int sr="arg1" val="0"/>
+<Str sr="arg2" ve="3"/>
+<Str sr="arg3" ve="3"/>
+<Str sr="arg4" ve="3"/>
+<Str sr="arg5" ve="3"/>
+<Str sr="arg6" ve="3">com.spotify.music</Str>
+<Str sr="arg7" ve="3"/>
+<Int sr="arg8" val="0"/>
+</Action>
+<Action sr="act7" ve="7">
+<code>903</code>
+<label>t4</label>
+<Str sr="arg0" ve="3">Read</Str>
+<Int sr="arg1" val="0"/>
+<Int sr="arg2" val="1"/>
+<Int sr="arg3" val="30"/>
+</Action>
+<Action sr="act70" ve="7">
+<code>38</code>
+</Action>
+<Action sr="act8" ve="7">
+<code>37</code>
+<ConditionList sr="if">
+<Condition sr="c0" ve="3">
+<lhs>%VOICE</lhs>
+<op>2</op>
+<rhs>*yes*/*read*/*yep*/*yeah*/*message*</rhs>
+</Condition>
+</ConditionList>
+</Action>
+<Action sr="act9" ve="7">
+<code>549</code>
+<Str sr="arg0" ve="3">%VOICE</Str>
+<Int sr="arg1" val="0"/>
+</Action>
+</Task>
+</TaskerData>
