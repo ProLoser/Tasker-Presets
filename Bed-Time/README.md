@@ -3,6 +3,7 @@ Turns off lights in a room and says "Good Night, Sir"
 
 ### Requirements
 1. [AutoHue](https://play.google.com/store/apps/details?id=com.cuberob.autohue)
+2. [AutoVoice](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice) for voice triggering profile
 
 ### Setup
 1. You should change the AutoHue bulbs to your local Hue hub and bulbs.
