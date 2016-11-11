@@ -1,4 +1,5 @@
 # Stream Spotify to Chromecast
+Launches Spotify, sends a 'Play' command to spotify, opens Available Devices (for streaming to) and selects one.
 
 ### Requirements
 1. [AutoInput](https://play.google.com/store/apps/details?id=com.joaomgcd.autoinput)
