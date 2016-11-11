@@ -15,6 +15,6 @@ Please [open an issue](https://github.com/ProLoser/Tasker-Presets/issues) if you
 6. Follow Setup instructions for the preset.
 
 ### Contributing
-In order for Tasker to see the file (file location doesn't matter), the file has to follow a naming convention:
-A Task XML filename has to end with `tsk.xml`. Example: `myexample.tsk.xml`
+In order for Tasker to see the file (file location doesn't matter), the file has to follow a naming convention:  
+A Task XML filename has to end with `tsk.xml`. Example: `myexample.tsk.xml`  
 A Profile XML filename has to end with `prf.xml`. Example: `myexample.prf.xml`
