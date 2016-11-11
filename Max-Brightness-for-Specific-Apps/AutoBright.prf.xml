@@ -1,0 +1,37 @@
+<TaskerData sr="" dvi="1" tv="4.2u3m">
+    <Profile sr="prof84" ve="2">
+        <cdate>1379949564389</cdate>
+        <clp>true</clp>
+        <edate>1391657278558</edate>
+        <id>84</id>
+        <mid0>85</mid0>
+        <nme>Maximum Brightness</nme>
+        <App sr="con0" ve="2">
+            <cls1>com.lge.camera.CameraAppLauncher</cls1>
+            <cls2>slide.cameraZoom.CameraZoomActivity</cls2>
+            <label1>Camera</label1>
+            <label2>Camera ZOOM FX</label2>
+            <pkg0>com.android.gallery3d</pkg0>
+            <pkg1>com.lge.camera</pkg1>
+            <pkg2>slide.cameraZoom</pkg2>
+            <pkg3>com.google.android.videos</pkg3>
+            <pkg4>com.google.android.dialer</pkg4>
+        </App>
+    </Profile>
+    <Task sr="task85">
+        <cdate>1379949567874</cdate>
+        <edate>1379953986061</edate>
+        <id>85</id>
+        <Action sr="act0" ve="3">
+            <code>808</code>
+            <Int sr="arg0" val="0"/>
+        </Action>
+        <Action sr="act1" ve="3">
+            <code>810</code>
+            <Int sr="arg0" val="255"/>
+            <Int sr="arg1" val="0"/>
+            <Int sr="arg2" val="0"/>
+            <Int sr="arg3" val="1"/>
+        </Action>
+    </Task>
+</TaskerData>
