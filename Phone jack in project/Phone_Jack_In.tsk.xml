@@ -1,0 +1,29 @@
+<TaskerData sr="" dvi="1" tv="4.8u3m">
+	<Task sr="task54">
+		<cdate>1461477871615</cdate>
+		<edate>1462850006900</edate>
+		<id>54</id>
+		<nme>Phone Jack In</nme>
+		<pri>100</pri>
+		<Kid sr="Kid">
+			<launchID>54</launchID>
+			<pkg>com.phonejackin.valdivi</pkg>
+			<vnme>1.0</vnme>
+			<vnum>14</vnum>
+		</Kid>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Music Or Phone</Str>
+			<Int sr="arg1" val="9"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>headset3</nme>
+			<pkg>net.dinglisch.android.ipack.bluewhitepearlhd</pkg>
+		</Img>
+	</Task>
+</TaskerData>

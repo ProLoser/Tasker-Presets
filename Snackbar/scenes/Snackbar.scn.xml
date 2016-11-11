@@ -1,0 +1,36 @@
+<TaskerData sr="" dvi="1" tv="4.8u5m">
+	<dmetric>720.0,1184.0</dmetric>
+	<Scene sr="sceneSnackbar">
+		<cdate>1474758756157</cdate>
+		<edate>1474773802809</edate>
+		<gridSize>10</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>94</heightPort>
+		<nme>Snackbar</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>720</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>40,0,669,94,20,0,689,114</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">%text</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#323232</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Snackbar</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+</TaskerData>

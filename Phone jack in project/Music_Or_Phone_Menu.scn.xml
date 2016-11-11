@@ -1,0 +1,502 @@
+<TaskerData sr="" dvi="1" tv="4.8u3m">
+	<dmetric>1440.0,2560.0</dmetric>
+	<Scene sr="sceneMusic Or Phone Menu">
+		<cdate>1461485152977</cdate>
+		<edate>1462849985416</edate>
+		<gridSize>12</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>2560</heightPort>
+		<nme>Music Or Phone Menu</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1440</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,0,1440,2560,0,0,980,1130</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF060606</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="5"/>
+			<Str sr="arg5" ve="3">#FF575757</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>204,2006,1008,264,49,713,859,417</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Thank you for trying.</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements10" ve="3">
+			<clickTask>67</clickTask>
+			<flags>4</flags>
+			<geom>72,1118,298,174,366,316,350,268</geom>
+			<Str sr="arg0" ve="3">Text4</Str>
+			<Str sr="arg1" ve="3">ON/ OFF</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements11" ve="3">
+			<flags>4</flags>
+			<geom>24,770,1367,252,20,379,1056,237</geom>
+			<Str sr="arg0" ve="3">Text5</Str>
+			<Str sr="arg1" ve="3">This application will run in the background once you open it the first time and you can always turn it off or On.</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ImageElement sr="elements12" ve="2">
+			<flags>4</flags>
+			<geom>60,1106,323,204,0,615,357,348</geom>
+			<Str sr="arg0" ve="3">Image5</Str>
+			<Img sr="arg1" ve="2"/>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="10"/>
+				<Str sr="arg5" ve="3">#FF1D8BC5</Str>
+				<Int sr="arg6" val="1"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<ImageElement sr="elements13" ve="2">
+			<flags>4</flags>
+			<geom>72,1118,299,180,0,678,357,157</geom>
+			<Str sr="arg0" ve="3">Image7</Str>
+			<Img sr="arg1" ve="2"/>
+			<Int sr="arg2" val="81"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#69D5D5D5</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="4"/>
+				<Str sr="arg5" ve="3">#FF595959</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<TextElement sr="elements14" ve="3">
+			<flags>4</flags>
+			<geom>408,1118,815,180,363,632,696,220</geom>
+			<Str sr="arg0" ve="3">Text6</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#5A00B0DD</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="4"/>
+				<Str sr="arg5" ve="3">#FFFFFFFF</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<ImageElement sr="elements15" ve="2">
+			<flags>4</flags>
+			<geom>60,434,288,269,49,370,246,270</geom>
+			<Str sr="arg0" ve="3">Image2</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hl_zzz_tasker</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<TextElement sr="elements16" ve="3">
+			<flags>4</flags>
+			<geom>456,1106,248,204,352,960,248,228</geom>
+			<Str sr="arg0" ve="3">Text7</Str>
+			<Str sr="arg1" ve="3">Status..</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ImageElement sr="elements17" ve="2">
+			<flags>4</flags>
+			<geom>720,1142,479,132,588,996,347,144</geom>
+			<Str sr="arg0" ve="3">Image8</Str>
+			<Img sr="arg1" ve="2"/>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="5"/>
+				<Str sr="arg5" ve="3">#FFFFFFFF</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<ImageElement sr="elements18" ve="2">
+			<clickTask>70</clickTask>
+			<flags>4</flags>
+			<geom>1104,1502,180,180,1116,0,323,386</geom>
+			<Str sr="arg0" ve="3">Image10</Str>
+			<Img sr="arg1" ve="2"/>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="4"/>
+				<Str sr="arg5" ve="3">#FFFFFFFF</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<TextElement sr="elements19" ve="3">
+			<clickTask>30</clickTask>
+			<flags>4</flags>
+			<geom>1104,1538,179,108,1200,206,240,156</geom>
+			<Str sr="arg0" ve="3">Text8</Str>
+			<Str sr="arg1" ve="3">EXIT</Str>
+			<Int sr="arg2" val="11"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>397,1106,839,204,24,27,883,270</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFBC00</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements20" ve="3">
+			<flags>4</flags>
+			<geom>24,0,815,182,0,0,767,398</geom>
+			<Str sr="arg0" ve="3">Text9</Str>
+			<Str sr="arg1" ve="3">Settings Options</Str>
+			<Int sr="arg2" val="25"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ImageElement sr="elements3" ve="2">
+			<flags>4</flags>
+			<geom>0,0,1440,398,363,632,357,609</geom>
+			<Str sr="arg0" ve="3">Image6</Str>
+			<Img sr="arg1" ve="2"/>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF607D8B</Str>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FF607D8B</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<RectElement sr="elements4">
+			<flags>4</flags>
+			<geom>0,0,1440,170,0,0,1440,66</geom>
+			<Str sr="arg0" ve="3">Rectangle22</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">455A64</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<OvalElement sr="elements5">
+			<flags>4</flags>
+			<geom>1092,218,263,252,752,555,249,275</geom>
+			<Str sr="arg0" ve="3">Oval1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#36FFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+		</OvalElement>
+		<OvalElement sr="elements6">
+			<flags>4</flags>
+			<geom>1104,182,263,264,777,530,253,280</geom>
+			<Str sr="arg0" ve="3">Oval11</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">536DFE</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+		</OvalElement>
+		<ImageElement sr="elements7" ve="2">
+			<clickTask>69</clickTask>
+			<flags>4</flags>
+			<geom>1140,242,203,144,740,565,260,293</geom>
+			<Str sr="arg0" ve="3">Image3</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_content_undo</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<TextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>1116,398,252,63,804,309,271,96</geom>
+			<Str sr="arg0" ve="3">Text3</Str>
+			<Str sr="arg1" ve="3">Go back</Str>
+			<Int sr="arg2" val="11"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ImageElement sr="elements9" ve="2">
+			<flags>4</flags>
+			<geom>288,194,215,192,788,627,255,256</geom>
+			<Str sr="arg0" ve="3">Image4</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_hardware_headphones</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#33FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Music Or Phone Menu</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task30">
+		<cdate>1462842611249</cdate>
+		<edate>1462842611249</edate>
+		<id>30</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Music Or Phone Menu</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Music Or Phone</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="30"/>
+		</Action>
+	</Task>
+	<Task sr="task67">
+		<cdate>1461554043596</cdate>
+		<edate>1461554043596</edate>
+		<id>67</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%NOTifyjack</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="2"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%NOTifyjack</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="10"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="10"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Headset Plug-in</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Music Or Phone Menu</Str>
+			<Str sr="arg1" ve="3">Text2</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Disable </Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>54</code>
+			<Str sr="arg0" ve="3">Music Or Phone Menu</Str>
+			<Str sr="arg1" ve="3">Text2</Str>
+			<Str sr="arg2" ve="3">#FFFF0000</Str>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>56</code>
+			<Str sr="arg0" ve="3">Music Or Phone Menu</Str>
+			<Str sr="arg1" ve="3">Text2</Str>
+			<Int sr="arg2" val="5"/>
+			<Str sr="arg3" ve="3">FFFF0000</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="10"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="10"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Headset Plug-in</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Music Or Phone Menu</Str>
+			<Str sr="arg1" ve="3">Text2</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Enable </Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>54</code>
+			<Str sr="arg0" ve="3">Music Or Phone Menu</Str>
+			<Str sr="arg1" ve="3">Text2</Str>
+			<Str sr="arg2" ve="3">#FF00FF07</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>56</code>
+			<Str sr="arg0" ve="3">Music Or Phone Menu</Str>
+			<Str sr="arg1" ve="3">Text2</Str>
+			<Int sr="arg2" val="5"/>
+			<Str sr="arg3" ve="3">#FF00FF07</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%NOTifyjack</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task69">
+		<cdate>1461488761662</cdate>
+		<edate>1461488761662</edate>
+		<id>69</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Music Or Phone</Str>
+			<Int sr="arg1" val="9"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Music Or Phone Menu</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="20"/>
+		</Action>
+	</Task>
+	<Task sr="task70">
+		<cdate>1462839549160</cdate>
+		<edate>1462839549160</edate>
+		<id>70</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Music Or Phone Menu</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Music Or Phone</Str>
+		</Action>
+	</Task>
+</TaskerData>
