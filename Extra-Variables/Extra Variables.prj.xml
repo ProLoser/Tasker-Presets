@@ -7,16 +7,16 @@
 		<id>11</id>
 		<mid0>14</mid0>
 		<mid1>15</mid1>
-		<nme>myUSER=present (in call)</nme>
+		<nme>EX_USER=present (in call)</nme>
 		<State sr="con0">
 			<code>165</code>
-			<Str sr="arg0" ve="3">%myUIMODE</Str>
+			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">normal</Str>
 		</State>
 		<State sr="con1">
 			<code>165</code>
-			<Str sr="arg0" ve="3">%myDISPLAY</Str>
+			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
 			<Int sr="arg1" val="2"/>
 			<Str sr="arg2" ve="3">unlocked</Str>
 		</State>
@@ -33,7 +33,7 @@
 		<flags>17</flags>
 		<id>124</id>
 		<mid0>138</mid0>
-		<nme>myUIMODE=car</nme>
+		<nme>EX_UIMODE=car</nme>
 		<State sr="con0">
 			<code>10</code>
 			<Int sr="arg0"/>
@@ -44,7 +44,7 @@
 		</State>
 		<State sr="con2">
 			<code>165</code>
-			<Str sr="arg0" ve="3">%myDISPLAY</Str>
+			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">unlocked</Str>
 		</State>
@@ -56,7 +56,7 @@
 		<flags>25</flags>
 		<id>134</id>
 		<mid0>135</mid0>
-		<nme>Initialize myVARS</nme>
+		<nme>Initialize EX_VARS</nme>
 		<pri>10</pri>
 		<State sr="con0">
 			<code>123</code>
@@ -70,7 +70,7 @@
 		<flags>17</flags>
 		<id>140</id>
 		<mid0>148</mid0>
-		<nme>myUIMODE=desk</nme>
+		<nme>EX_UIMODE=desk</nme>
 		<State sr="con0">
 			<code>10</code>
 			<Int sr="arg0" val="0"/>
@@ -81,7 +81,7 @@
 		</State>
 		<State sr="con2">
 			<code>165</code>
-			<Str sr="arg0" ve="3">%myDISPLAY</Str>
+			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">unlocked</Str>
 		</State>
@@ -93,7 +93,7 @@
 		<flags>1</flags>
 		<id>195</id>
 		<mid0>196</mid0>
-		<nme>myPOWER=none</nme>
+		<nme>EX_POWER=none</nme>
 		<State sr="con0">
 			<code>10</code>
 			<pin>true</pin>
@@ -107,11 +107,11 @@
 		<flags>1</flags>
 		<id>197</id>
 		<mid0>221</mid0>
-		<nme>myUSER=absent</nme>
+		<nme>EX_USER=absent</nme>
 		<State sr="con0">
 			<code>142</code>
 			<pin>true</pin>
-			<Str sr="arg0" ve="3">myUSER=present*</Str>
+			<Str sr="arg0" ve="3">EX_USER=present*</Str>
 		</State>
 	</Profile>
 	<Profile sr="prof198" ve="2">
@@ -120,7 +120,7 @@
 		<edate>1366819593494</edate>
 		<id>198</id>
 		<mid0>199</mid0>
-		<nme>myDISPLAY=off</nme>
+		<nme>EX_DISPLAY=off</nme>
 		<Event sr="con0" ve="2">
 			<code>210</code>
 		</Event>
@@ -131,7 +131,7 @@
 		<edate>1366819599918</edate>
 		<id>200</id>
 		<mid0>209</mid0>
-		<nme>myDISPLAY=on</nme>
+		<nme>EX_DISPLAY=on</nme>
 		<pri>6</pri>
 		<Event sr="con0" ve="2">
 			<code>208</code>
@@ -143,7 +143,7 @@
 		<edate>1366819607566</edate>
 		<id>210</id>
 		<mid0>222</mid0>
-		<nme>myDISPLAY=unlocked</nme>
+		<nme>EX_DISPLAY=unlocked</nme>
 		<Event sr="con0" ve="2">
 			<code>1000</code>
 		</Event>
@@ -155,11 +155,11 @@
 		<flags>1</flags>
 		<id>223</id>
 		<mid0>225</mid0>
-		<nme>myUIMODE=normal</nme>
+		<nme>EX_UIMODE=normal</nme>
 		<State sr="con0">
 			<code>142</code>
 			<pin>true</pin>
-			<Str sr="arg0" ve="3">myUIMODE=car/myUIMODE=desk</Str>
+			<Str sr="arg0" ve="3">EX_UIMODE=car/EX_UIMODE=desk</Str>
 		</State>
 		<State sr="con1">
 			<code>10</code>
@@ -175,7 +175,7 @@
 		<id>237</id>
 		<limit>true</limit>
 		<mid0>238</mid0>
-		<nme>myUIMODE=UIMODE</nme>
+		<nme>EX_UIMODE=UIMODE</nme>
 		<Event sr="con0" ve="2">
 			<code>3050</code>
 			<pri>0</pri>
@@ -189,7 +189,7 @@
 		<edate>1365094687268</edate>
 		<id>33</id>
 		<mid0>35</mid0>
-		<nme>myPOWER=ac</nme>
+		<nme>EX_POWER=ac</nme>
 		<State sr="con0">
 			<code>10</code>
 			<Int sr="arg0" val="1"/>
@@ -201,7 +201,7 @@
 		<edate>1365094693233</edate>
 		<id>37</id>
 		<mid0>42</mid0>
-		<nme>myPOWER=usb</nme>
+		<nme>EX_POWER=usb</nme>
 		<State sr="con0">
 			<code>10</code>
 			<Int sr="arg0" val="2"/>
@@ -215,7 +215,7 @@
 		<id>39</id>
 		<mid0>73</mid0>
 		<mid1>89</mid1>
-		<nme>myTRUSTEDWIFI</nme>
+		<nme>EX_TRUSTEDWIFI</nme>
 		<State sr="con0">
 			<code>160</code>
 			<Str sr="arg0" ve="3">promisedlan*/z6hb7/w3wq2/1ae2bb/85qy2</Str>
@@ -230,7 +230,7 @@
 		<flags>16</flags>
 		<id>44</id>
 		<mid0>52</mid0>
-		<nme>myPHONE=ringing</nme>
+		<nme>EX_PHONE=ringing</nme>
 		<Event sr="con0" ve="2">
 			<code>6</code>
 			<Str sr="arg0" ve="3"/>
@@ -242,7 +242,7 @@
 		<edate>1365094698236</edate>
 		<id>48</id>
 		<mid0>50</mid0>
-		<nme>myPOWER=wireless</nme>
+		<nme>EX_POWER=wireless</nme>
 		<State sr="con0">
 			<code>10</code>
 			<Int sr="arg0" val="3"/>
@@ -255,16 +255,16 @@
 		<flags>17</flags>
 		<id>51</id>
 		<mid0>288</mid0>
-		<nme>myUSER=present (display)</nme>
+		<nme>EX_USER=present (display)</nme>
 		<State sr="con0">
 			<code>165</code>
-			<Str sr="arg0" ve="3">%myUIMODE</Str>
+			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">normal</Str>
 		</State>
 		<State sr="con1">
 			<code>165</code>
-			<Str sr="arg0" ve="3">%myDISPLAY</Str>
+			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">unlocked</Str>
 		</State>
@@ -276,7 +276,7 @@
 		<flags>16</flags>
 		<id>63</id>
 		<mid0>64</mid0>
-		<nme>myPHONE=offhook</nme>
+		<nme>EX_PHONE=offhook</nme>
 		<Event sr="con0" ve="2">
 			<code>2</code>
 		</Event>
@@ -288,7 +288,7 @@
 		<flags>16</flags>
 		<id>65</id>
 		<mid0>66</mid0>
-		<nme>myPHONE=idle</nme>
+		<nme>EX_PHONE=idle</nme>
 		<Event sr="con0" ve="2">
 			<code>4</code>
 		</Event>
@@ -309,67 +309,67 @@
 		<id>135</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<lhs>%myUIMODE</lhs>
+			<lhs>%EX_UIMODE</lhs>
 			<op>10</op>
 			<rhs></rhs>
-			<Str sr="arg0" ve="3">%myUIMODE</Str>
+			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
 			<Str sr="arg1" ve="3">normal</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="3">
 			<code>547</code>
-			<lhs>%myDISPLAY</lhs>
+			<lhs>%EX_DISPLAY</lhs>
 			<op>10</op>
 			<rhs></rhs>
-			<Str sr="arg0" ve="3">%myDISPLAY</Str>
+			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
 			<Str sr="arg1" ve="3">unlocked</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act2" ve="3">
 			<code>547</code>
-			<lhs>%myPHONE</lhs>
+			<lhs>%EX_PHONE</lhs>
 			<op>10</op>
 			<rhs></rhs>
-			<Str sr="arg0" ve="3">%myPHONE</Str>
+			<Str sr="arg0" ve="3">%EX_PHONE</Str>
 			<Str sr="arg1" ve="3">idle</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act3" ve="3">
 			<code>547</code>
-			<lhs>%myPOWER</lhs>
+			<lhs>%EX_POWER</lhs>
 			<op>10</op>
 			<rhs></rhs>
-			<Str sr="arg0" ve="3">%myPOWER</Str>
+			<Str sr="arg0" ve="3">%EX_POWER</Str>
 			<Str sr="arg1" ve="3">none</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act4" ve="3">
 			<code>547</code>
-			<lhs>%myUSER</lhs>
+			<lhs>%EX_USER</lhs>
 			<op>10</op>
 			<rhs></rhs>
-			<Str sr="arg0" ve="3">%myUSER</Str>
+			<Str sr="arg0" ve="3">%EX_USER</Str>
 			<Str sr="arg1" ve="3">present</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act5" ve="3">
 			<code>547</code>
-			<lhs>%myTRUSTEDWIFI</lhs>
+			<lhs>%EX_TRUSTEDWIFI</lhs>
 			<op>10</op>
 			<rhs></rhs>
-			<Str sr="arg0" ve="3">%myTRUSTEDWIFI</Str>
+			<Str sr="arg0" ve="3">%EX_TRUSTEDWIFI</Str>
 			<Str sr="arg1" ve="3">false</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act6" ve="3">
 			<code>159</code>
-			<Str sr="arg0" ve="3">Initialize myVARS</Str>
+			<Str sr="arg0" ve="3">Initialize EX_VARS</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
@@ -379,10 +379,10 @@
 		<id>138</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<lhs>%myUIMODE</lhs>
+			<lhs>%EX_UIMODE</lhs>
 			<op>1</op>
 			<rhs>normal</rhs>
-			<Str sr="arg0" ve="3">%myUIMODE</Str>
+			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
 			<Str sr="arg1" ve="3">car</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -394,7 +394,7 @@
 		<id>14</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myUSER</Str>
+			<Str sr="arg0" ve="3">%EX_USER</Str>
 			<Str sr="arg1" ve="3">present</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -406,10 +406,10 @@
 		<id>148</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<lhs>%myUIMODE</lhs>
+			<lhs>%EX_UIMODE</lhs>
 			<op>1</op>
 			<rhs>normal</rhs>
-			<Str sr="arg0" ve="3">%myUIMODE</Str>
+			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
 			<Str sr="arg1" ve="3">desk</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -421,7 +421,7 @@
 		<id>15</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myUSER</Str>
+			<Str sr="arg0" ve="3">%EX_USER</Str>
 			<Str sr="arg1" ve="3">absent</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -433,7 +433,7 @@
 		<id>196</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myPOWER</Str>
+			<Str sr="arg0" ve="3">%EX_POWER</Str>
 			<Str sr="arg1" ve="3">none</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -445,7 +445,7 @@
 		<id>199</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myDISPLAY</Str>
+			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
 			<Str sr="arg1" ve="3">off</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -457,7 +457,7 @@
 		<id>209</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myDISPLAY</Str>
+			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
 			<Str sr="arg1" ve="3">on</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -469,7 +469,7 @@
 		<id>221</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myUSER</Str>
+			<Str sr="arg0" ve="3">%EX_USER</Str>
 			<Str sr="arg1" ve="3">absent</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -481,7 +481,7 @@
 		<id>222</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myDISPLAY</Str>
+			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
 			<Str sr="arg1" ve="3">unlocked</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -493,7 +493,7 @@
 		<id>225</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myUIMODE</Str>
+			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
 			<Str sr="arg1" ve="3">normal</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -505,7 +505,7 @@
 		<id>238</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myUIMODE</Str>
+			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
 			<Str sr="arg1" ve="3">%UIMODE</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -517,7 +517,7 @@
 		<id>288</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myUSER</Str>
+			<Str sr="arg0" ve="3">%EX_USER</Str>
 			<Str sr="arg1" ve="3">present</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -529,7 +529,7 @@
 		<id>35</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myPOWER</Str>
+			<Str sr="arg0" ve="3">%EX_POWER</Str>
 			<Str sr="arg1" ve="3">ac</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -541,7 +541,7 @@
 		<id>42</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myPOWER</Str>
+			<Str sr="arg0" ve="3">%EX_POWER</Str>
 			<Str sr="arg1" ve="3">usb</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -553,7 +553,7 @@
 		<id>50</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myPOWER</Str>
+			<Str sr="arg0" ve="3">%EX_POWER</Str>
 			<Str sr="arg1" ve="3">wireless</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -565,7 +565,7 @@
 		<id>52</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myPHONE</Str>
+			<Str sr="arg0" ve="3">%EX_PHONE</Str>
 			<Str sr="arg1" ve="3">ringing</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -577,7 +577,7 @@
 		<id>64</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myPHONE</Str>
+			<Str sr="arg0" ve="3">%EX_PHONE</Str>
 			<Str sr="arg1" ve="3">offhook</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -589,7 +589,7 @@
 		<id>66</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myPHONE</Str>
+			<Str sr="arg0" ve="3">%EX_PHONE</Str>
 			<Str sr="arg1" ve="3">idle</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -601,7 +601,7 @@
 		<id>73</id>
 		<Action sr="act0" ve="3">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%myTRUSTEDWIFI</Str>
+			<Str sr="arg0" ve="3">%EX_TRUSTEDWIFI</Str>
 			<Str sr="arg1" ve="3">true</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -623,8 +623,8 @@
 			<code>547</code>
 			<lhs>%PACTIVE</lhs>
 			<op>12</op>
-			<rhs>,myTRUSTEDWIFI,</rhs>
-			<Str sr="arg0" ve="3">%myTRUSTEDWIFI</Str>
+			<rhs>,EX_TRUSTEDWIFI,</rhs>
+			<Str sr="arg0" ve="3">%EX_TRUSTEDWIFI</Str>
 			<Str sr="arg1" ve="3">false</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
