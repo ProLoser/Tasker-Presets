@@ -1,557 +1,422 @@
-<TaskerData sr="" dvi="1" tv="4.0u1m">
-	<Profile sr="prof11" ve="2">
-		<cdate>1341929568820</cdate>
-		<clp>true</clp>
-		<edate>1366553409373</edate>
-		<flags>17</flags>
-		<id>11</id>
-		<mid0>14</mid0>
-		<mid1>15</mid1>
-		<nme>EX_USER=present (in call)</nme>
-		<State sr="con0">
-			<code>165</code>
-			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">normal</Str>
-		</State>
-		<State sr="con1">
-			<code>165</code>
-			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">unlocked</Str>
-		</State>
-		<State sr="con2">
-			<code>40</code>
-			<Int sr="arg0" val="2"/>
-			<Str sr="arg1" ve="3"/>
-		</State>
-	</Profile>
-	<Profile sr="prof124" ve="2">
-		<cdate>1323438555649</cdate>
-		<clp>true</clp>
-		<edate>1365435736208</edate>
-		<flags>17</flags>
-		<id>124</id>
-		<mid0>138</mid0>
-		<nme>EX_UIMODE=car</nme>
-		<State sr="con0">
-			<code>10</code>
-			<Int sr="arg0"/>
-		</State>
-		<State sr="con1">
-			<code>120</code>
-			<Int sr="arg0" val="2"/>
-		</State>
-		<State sr="con2">
-			<code>165</code>
-			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">unlocked</Str>
-		</State>
-	</Profile>
-	<Profile sr="prof134" ve="2">
-		<cdate>1364654838619</cdate>
-		<clp>true</clp>
-		<edate>1367879301055</edate>
-		<flags>25</flags>
-		<id>134</id>
-		<mid0>135</mid0>
-		<nme>Initialize EX_VARS</nme>
-		<pri>10</pri>
-		<State sr="con0">
-			<code>123</code>
-			<Int sr="arg0" val="1"/>
-		</State>
-	</Profile>
-	<Profile sr="prof140" ve="2">
-		<cdate>1323480774906</cdate>
-		<clp>true</clp>
-		<edate>1364780776430</edate>
-		<flags>17</flags>
-		<id>140</id>
-		<mid0>148</mid0>
-		<nme>EX_UIMODE=desk</nme>
-		<State sr="con0">
-			<code>10</code>
-			<Int sr="arg0" val="0"/>
-		</State>
-		<State sr="con1">
-			<code>120</code>
-			<Int sr="arg0" val="4"/>
-		</State>
-		<State sr="con2">
-			<code>165</code>
-			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">unlocked</Str>
-		</State>
-	</Profile>
-	<Profile sr="prof195" ve="2">
-		<cdate>1365094637535</cdate>
-		<clp>true</clp>
-		<edate>1365098652603</edate>
-		<flags>1</flags>
-		<id>195</id>
-		<mid0>196</mid0>
-		<nme>EX_POWER=none</nme>
-		<State sr="con0">
-			<code>10</code>
-			<pin>true</pin>
-			<Int sr="arg0" val="0"/>
-		</State>
-	</Profile>
-	<Profile sr="prof197" ve="2">
-		<cdate>1365095341166</cdate>
-		<clp>true</clp>
-		<edate>1365098668430</edate>
-		<flags>1</flags>
-		<id>197</id>
-		<mid0>221</mid0>
-		<nme>EX_USER=absent</nme>
-		<State sr="con0">
-			<code>142</code>
-			<pin>true</pin>
-			<Str sr="arg0" ve="3">EX_USER=present*</Str>
-		</State>
-	</Profile>
-	<Profile sr="prof198" ve="2">
-		<cdate>1364240672635</cdate>
-		<clp>true</clp>
-		<edate>1366819593494</edate>
-		<id>198</id>
-		<mid0>199</mid0>
-		<nme>EX_DISPLAY=off</nme>
-		<Event sr="con0" ve="2">
-			<code>210</code>
-		</Event>
-	</Profile>
-	<Profile sr="prof200" ve="2">
-		<cdate>1364240752058</cdate>
-		<clp>true</clp>
-		<edate>1366819599918</edate>
-		<id>200</id>
-		<mid0>209</mid0>
-		<nme>EX_DISPLAY=on</nme>
-		<pri>6</pri>
-		<Event sr="con0" ve="2">
-			<code>208</code>
-		</Event>
-	</Profile>
-	<Profile sr="prof210" ve="2">
-		<cdate>1364240812843</cdate>
-		<clp>true</clp>
-		<edate>1366819607566</edate>
-		<id>210</id>
-		<mid0>222</mid0>
-		<nme>EX_DISPLAY=unlocked</nme>
-		<Event sr="con0" ve="2">
-			<code>1000</code>
-		</Event>
-	</Profile>
-	<Profile sr="prof223" ve="2">
-		<cdate>1364242760350</cdate>
-		<clp>true</clp>
-		<edate>1365346138558</edate>
-		<flags>1</flags>
-		<id>223</id>
-		<mid0>225</mid0>
-		<nme>EX_UIMODE=normal</nme>
-		<State sr="con0">
-			<code>142</code>
-			<pin>true</pin>
-			<Str sr="arg0" ve="3">EX_UIMODE=car/EX_UIMODE=desk</Str>
-		</State>
-		<State sr="con1">
-			<code>10</code>
-			<pin>true</pin>
-			<Int sr="arg0" val="0"/>
-		</State>
-	</Profile>
-	<Profile sr="prof237" ve="2">
-		<cdate>1349830645829</cdate>
-		<clp>true</clp>
-		<edate>1365098870819</edate>
-		<flags>16</flags>
-		<id>237</id>
-		<limit>true</limit>
-		<mid0>238</mid0>
-		<nme>EX_UIMODE=UIMODE</nme>
-		<Event sr="con0" ve="2">
-			<code>3050</code>
-			<pri>0</pri>
-			<Str sr="arg0" ve="3">%UIMODE</Str>
-			<Str sr="arg1" ve="3"/>
-		</Event>
-	</Profile>
-	<Profile sr="prof33" ve="2">
-		<cdate>1362623874500</cdate>
-		<clp>true</clp>
-		<edate>1365094687268</edate>
-		<id>33</id>
-		<mid0>35</mid0>
-		<nme>EX_POWER=ac</nme>
-		<State sr="con0">
-			<code>10</code>
-			<Int sr="arg0" val="1"/>
-		</State>
-	</Profile>
-	<Profile sr="prof37" ve="2">
-		<cdate>1362624037918</cdate>
+<TaskerData sr="" dvi="1" tv="4.8u5m">
+	<Profile sr="prof101" ve="2">
+		<cdate>1480281512599</cdate>
 		<clp>true</clp>
 		<edate>1365094693233</edate>
-		<id>37</id>
-		<mid0>42</mid0>
+		<id>101</id>
+		<mid0>90</mid0>
 		<nme>EX_POWER=usb</nme>
-		<State sr="con0">
+		<State sr="con0" ve="2">
 			<code>10</code>
 			<Int sr="arg0" val="2"/>
 		</State>
 	</Profile>
-	<Profile sr="prof39" ve="2">
-		<cdate>1338388285249</cdate>
+	<Profile sr="prof102" ve="2">
+		<cdate>1480281512609</cdate>
 		<clp>true</clp>
-		<edate>1366817818987</edate>
-		<flags>17</flags>
-		<id>39</id>
-		<mid0>73</mid0>
-		<mid1>89</mid1>
-		<nme>EX_TRUSTEDWIFI</nme>
-		<State sr="con0">
-			<code>160</code>
-			<Str sr="arg0" ve="3">promisedlan*/z6hb7/w3wq2/1ae2bb/85qy2</Str>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3"/>
-		</State>
-	</Profile>
-	<Profile sr="prof44" ve="2">
-		<cdate>1305838416840</cdate>
-		<clp>true</clp>
-		<edate>1364250576403</edate>
+		<edate>1480325976212</edate>
 		<flags>16</flags>
-		<id>44</id>
-		<mid0>52</mid0>
+		<id>102</id>
+		<mid0>92</mid0>
 		<nme>EX_PHONE=ringing</nme>
 		<Event sr="con0" ve="2">
 			<code>6</code>
 			<Str sr="arg0" ve="3"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof48" ve="2">
-		<cdate>1362624153008</cdate>
-		<clp>true</clp>
-		<edate>1365094698236</edate>
-		<id>48</id>
-		<mid0>50</mid0>
-		<nme>EX_POWER=wireless</nme>
-		<State sr="con0">
-			<code>10</code>
-			<Int sr="arg0" val="3"/>
-		</State>
-	</Profile>
-	<Profile sr="prof51" ve="2">
-		<cdate>1341929568820</cdate>
-		<clp>true</clp>
-		<edate>1365888030873</edate>
-		<flags>17</flags>
-		<id>51</id>
-		<mid0>288</mid0>
-		<nme>EX_USER=present (display)</nme>
-		<State sr="con0">
-			<code>165</code>
-			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">normal</Str>
-		</State>
-		<State sr="con1">
-			<code>165</code>
-			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">unlocked</Str>
-		</State>
-	</Profile>
-	<Profile sr="prof63" ve="2">
-		<cdate>1305838416863</cdate>
-		<clp>true</clp>
-		<edate>1364250563023</edate>
-		<flags>16</flags>
-		<id>63</id>
-		<mid0>64</mid0>
-		<nme>EX_PHONE=offhook</nme>
-		<Event sr="con0" ve="2">
-			<code>2</code>
-		</Event>
-	</Profile>
-	<Profile sr="prof65" ve="2">
-		<cdate>1305838416862</cdate>
+	<Profile sr="prof103" ve="2">
+		<cdate>1480281512619</cdate>
 		<clp>true</clp>
 		<edate>1364250544053</edate>
 		<flags>16</flags>
-		<id>65</id>
-		<mid0>66</mid0>
+		<id>103</id>
+		<mid0>97</mid0>
 		<nme>EX_PHONE=idle</nme>
 		<Event sr="con0" ve="2">
 			<code>4</code>
 		</Event>
 	</Profile>
-	<Project sr="proj0">
+	<Profile sr="prof104" ve="2">
+		<cdate>1480281512636</cdate>
+		<clp>true</clp>
+		<edate>1365098870819</edate>
+		<flags>16</flags>
+		<id>104</id>
+		<limit>true</limit>
+		<mid0>88</mid0>
+		<nme>EX_UIMODE=UIMODE</nme>
+		<Event sr="con0" ve="2">
+			<code>3050</code>
+			<pri>0</pri>
+			<Str sr="arg0" ve="3">%UIMODE</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof106" ve="2">
+		<cdate>1480281512656</cdate>
+		<clp>true</clp>
+		<edate>1365435736208</edate>
+		<flags>17</flags>
+		<id>106</id>
+		<mid0>91</mid0>
+		<nme>EX_UIMODE=car</nme>
+		<State sr="con0" ve="2">
+			<code>10</code>
+			<Int sr="arg0"/>
+		</State>
+		<State sr="con1" ve="2">
+			<code>120</code>
+			<Int sr="arg0" val="2"/>
+		</State>
+		<State sr="con2" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%EX_DISPLAY</lhs>
+					<op>0</op>
+					<rhs>unlocked</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+	</Profile>
+	<Profile sr="prof108" ve="2">
+		<cdate>1480281512676</cdate>
+		<clp>true</clp>
+		<edate>1480326039765</edate>
+		<flags>1</flags>
+		<id>108</id>
+		<mid0>80</mid0>
+		<nme>EX_POWER=none</nme>
+		<State sr="con0" ve="2">
+			<code>10</code>
+			<pin>true</pin>
+			<Int sr="arg0" val="0"/>
+		</State>
+	</Profile>
+	<Profile sr="prof109" ve="2">
+		<cdate>1480281512686</cdate>
+		<clp>true</clp>
+		<edate>1365888030873</edate>
+		<flags>17</flags>
+		<id>109</id>
+		<mid0>95</mid0>
+		<nme>EX_USER=present (display)</nme>
+		<State sr="con0" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%EX_UIMODE</lhs>
+					<op>0</op>
+					<rhs>normal</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+		<State sr="con1" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%EX_DISPLAY</lhs>
+					<op>0</op>
+					<rhs>unlocked</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+	</Profile>
+	<Profile sr="prof110" ve="2">
+		<cdate>1480281512694</cdate>
+		<clp>true</clp>
+		<edate>1364780776430</edate>
+		<flags>17</flags>
+		<id>110</id>
+		<mid0>99</mid0>
+		<nme>EX_UIMODE=desk</nme>
+		<State sr="con0" ve="2">
+			<code>10</code>
+			<Int sr="arg0" val="0"/>
+		</State>
+		<State sr="con1" ve="2">
+			<code>120</code>
+			<Int sr="arg0" val="4"/>
+		</State>
+		<State sr="con2" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%EX_DISPLAY</lhs>
+					<op>0</op>
+					<rhs>unlocked</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+	</Profile>
+	<Profile sr="prof111" ve="2">
+		<cdate>1480281512702</cdate>
+		<clp>true</clp>
+		<edate>1480328074677</edate>
+		<flags>25</flags>
+		<id>111</id>
+		<limit>true</limit>
+		<mid0>82</mid0>
+		<nme>Initialize EX_VARS</nme>
+		<pri>10</pri>
+		<State sr="con0" ve="2">
+			<code>123</code>
+			<Int sr="arg0" val="1"/>
+		</State>
+	</Profile>
+	<Profile sr="prof112" ve="2">
+		<cdate>1480281512711</cdate>
+		<clp>true</clp>
+		<edate>1365346138558</edate>
+		<flags>1</flags>
+		<id>112</id>
+		<mid0>81</mid0>
+		<nme>EX_UIMODE=normal</nme>
+		<State sr="con0" ve="2">
+			<code>142</code>
+			<pin>true</pin>
+			<Str sr="arg0" ve="3">EX_UIMODE=car/EX_UIMODE=desk</Str>
+		</State>
+		<State sr="con1" ve="2">
+			<code>10</code>
+			<pin>true</pin>
+			<Int sr="arg0" val="0"/>
+		</State>
+	</Profile>
+	<Profile sr="prof113" ve="2">
+		<cdate>1480281512720</cdate>
+		<clp>true</clp>
+		<edate>1365094698236</edate>
+		<id>113</id>
+		<mid0>83</mid0>
+		<nme>EX_POWER=wireless</nme>
+		<State sr="con0" ve="2">
+			<code>10</code>
+			<Int sr="arg0" val="3"/>
+		</State>
+	</Profile>
+	<Profile sr="prof114" ve="2">
+		<cdate>1480281512730</cdate>
+		<clp>true</clp>
+		<edate>1480326116822</edate>
+		<flags>1</flags>
+		<id>114</id>
+		<mid0>94</mid0>
+		<nme>EX_USER=absent</nme>
+		<State sr="con0" ve="2">
+			<code>142</code>
+			<pin>true</pin>
+			<Str sr="arg0" ve="3">EX_USER=present*</Str>
+		</State>
+	</Profile>
+	<Profile sr="prof115" ve="2">
+		<cdate>1480281512740</cdate>
+		<clp>true</clp>
+		<edate>1366553409373</edate>
+		<flags>17</flags>
+		<id>115</id>
+		<mid0>93</mid0>
+		<mid1>84</mid1>
+		<nme>EX_USER=present (in call)</nme>
+		<State sr="con0" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%EX_UIMODE</lhs>
+					<op>0</op>
+					<rhs>normal</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+		<State sr="con1" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%EX_DISPLAY</lhs>
+					<op>1</op>
+					<rhs>unlocked</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+		<State sr="con2" ve="2">
+			<code>40</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3"/>
+		</State>
+	</Profile>
+	<Profile sr="prof116" ve="2">
+		<cdate>1480281512749</cdate>
+		<clp>true</clp>
+		<edate>1480326016314</edate>
+		<id>116</id>
+		<mid0>89</mid0>
+		<nme>EX_POWER=ac</nme>
+		<State sr="con0" ve="2">
+			<code>10</code>
+			<Int sr="arg0" val="1"/>
+		</State>
+	</Profile>
+	<Profile sr="prof118" ve="2">
+		<cdate>1480281512766</cdate>
+		<clp>true</clp>
+		<edate>1364250563023</edate>
+		<flags>16</flags>
+		<id>118</id>
+		<mid0>98</mid0>
+		<nme>EX_PHONE=offhook</nme>
+		<Event sr="con0" ve="2">
+			<code>2</code>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
 		<cdate>1330314242429</cdate>
-		<name>My States</name>
-		<pids>140,11,33,63,237,51,198,65,197,134,210,200,124,223,37,48,39,195,44</pids>
+		<name>Extra States</name>
+		<pids>118,103,112,101,115,113,116,104,111,102,106,109,110,108,114</pids>
 		<psort>Alpha</psort>
-		<tids>135,222,42,225,73,15,148,138,209,14,66,64,199,52,50,35,288,238,89,196,221</tids>
+		<tids>91,88,83,97,90,92,95,84,94,82,93,80,89,81,98,99,129</tids>
 		<Img sr="icon" ve="2">
 			<nme>hd_aaa_ext_contrast</nme>
 		</Img>
 	</Project>
-	<Task sr="task135">
-		<cdate>1364654848192</cdate>
-		<edate>1365085617596</edate>
-		<id>135</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<lhs>%EX_UIMODE</lhs>
-			<op>10</op>
-			<rhs></rhs>
-			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
-			<Str sr="arg1" ve="3">normal</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
+	<Task sr="task129">
+		<cdate>1450924357398</cdate>
+		<edate>1480328243032</edate>
+		<id>129</id>
+		<nme>Is Screen Locked?</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">kgm</Str>
+			<Str sr="arg1" ve="3">CONTEXT</Str>
+			<Str sr="arg2" ve="3">getSystemService
+{KeyguardManager} (String)</Str>
+			<Str sr="arg3" ve="3">keyguard</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act1" ve="3">
-			<code>547</code>
-			<lhs>%EX_DISPLAY</lhs>
-			<op>10</op>
-			<rhs></rhs>
-			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
-			<Str sr="arg1" ve="3">unlocked</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
+		<Action sr="act1" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">%locked</Str>
+			<Str sr="arg1" ve="3">kgm</Str>
+			<Str sr="arg2" ve="3">inKeyguardRestrictedInputMode
+{boolean} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act2" ve="3">
-			<code>547</code>
-			<lhs>%EX_PHONE</lhs>
-			<op>10</op>
-			<rhs></rhs>
-			<Str sr="arg0" ve="3">%EX_PHONE</Str>
-			<Str sr="arg1" ve="3">idle</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
+		<Action sr="act2" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%locked</Str>
+			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act3" ve="3">
+		<Img sr="icn" ve="2">
+			<nme>hl_action_help</nme>
+		</Img>
+	</Task>
+	<Task sr="task80">
+		<cdate>1365094642456</cdate>
+		<edate>1365094666521</edate>
+		<id>80</id>
+		<Action sr="act0" ve="7">
 			<code>547</code>
-			<lhs>%EX_POWER</lhs>
-			<op>10</op>
-			<rhs></rhs>
 			<Str sr="arg0" ve="3">%EX_POWER</Str>
 			<Str sr="arg1" ve="3">none</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act4" ve="3">
+	</Task>
+	<Task sr="task81">
+		<cdate>1364242764731</cdate>
+		<edate>1364256151211</edate>
+		<id>81</id>
+		<Action sr="act0" ve="7">
 			<code>547</code>
-			<lhs>%EX_USER</lhs>
-			<op>10</op>
-			<rhs></rhs>
+			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
+			<Str sr="arg1" ve="3">normal</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task82">
+		<cdate>1364654848192</cdate>
+		<edate>1480328074677</edate>
+		<id>82</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
+			<Str sr="arg1" ve="3">normal</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%EX_UIMODE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%EX_PHONE</Str>
+			<Str sr="arg1" ve="3">idle</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%EX_PHONE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%EX_POWER</Str>
+			<Str sr="arg1" ve="3">none</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%EX_POWER</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
 			<Str sr="arg0" ve="3">%EX_USER</Str>
 			<Str sr="arg1" ve="3">present</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%EX_USER</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="3">
-			<code>547</code>
-			<lhs>%EX_TRUSTEDWIFI</lhs>
-			<op>10</op>
-			<rhs></rhs>
-			<Str sr="arg0" ve="3">%EX_TRUSTEDWIFI</Str>
-			<Str sr="arg1" ve="3">false</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act6" ve="3">
+		<Action sr="act4" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Initialize EX_VARS</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task138">
-		<cdate>1330314242696</cdate>
-		<edate>1364242454382</edate>
-		<id>138</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<lhs>%EX_UIMODE</lhs>
-			<op>1</op>
-			<rhs>normal</rhs>
-			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
-			<Str sr="arg1" ve="3">car</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task14">
-		<cdate>1364255922120</cdate>
-		<edate>1364350546169</edate>
-		<id>14</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_USER</Str>
-			<Str sr="arg1" ve="3">present</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task148">
-		<cdate>1330314242714</cdate>
-		<edate>1364190023398</edate>
-		<id>148</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<lhs>%EX_UIMODE</lhs>
-			<op>1</op>
-			<rhs>normal</rhs>
-			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
-			<Str sr="arg1" ve="3">desk</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task15">
-		<cdate>1364255955464</cdate>
-		<edate>1364383679229</edate>
-		<id>15</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_USER</Str>
-			<Str sr="arg1" ve="3">absent</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task196">
-		<cdate>1365094642456</cdate>
-		<edate>1365094666521</edate>
-		<id>196</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_POWER</Str>
-			<Str sr="arg1" ve="3">none</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task199">
-		<cdate>1364240676598</cdate>
-		<edate>1366819593494</edate>
-		<id>199</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
-			<Str sr="arg1" ve="3">off</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task209">
-		<cdate>1364240755344</cdate>
-		<edate>1366819599918</edate>
-		<id>209</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
-			<Str sr="arg1" ve="3">on</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task221">
-		<cdate>1365095346662</cdate>
-		<edate>1365095380108</edate>
-		<id>221</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_USER</Str>
-			<Str sr="arg1" ve="3">absent</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task222">
-		<cdate>1364240818861</cdate>
-		<edate>1366819607566</edate>
-		<id>222</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_DISPLAY</Str>
-			<Str sr="arg1" ve="3">unlocked</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task225">
-		<cdate>1364242764731</cdate>
-		<edate>1364256151211</edate>
-		<id>225</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
-			<Str sr="arg1" ve="3">normal</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task238">
-		<cdate>1349830649914</cdate>
-		<edate>1364250390201</edate>
-		<id>238</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
-			<Str sr="arg1" ve="3">%UIMODE</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task288">
-		<cdate>1364255922120</cdate>
-		<edate>1364255945537</edate>
-		<id>288</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_USER</Str>
-			<Str sr="arg1" ve="3">present</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task35">
-		<cdate>1362623875045</cdate>
-		<edate>1362623903910</edate>
-		<id>35</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_POWER</Str>
-			<Str sr="arg1" ve="3">ac</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task42">
-		<cdate>1362624038315</cdate>
-		<edate>1362624058050</edate>
-		<id>42</id>
-		<Action sr="act0" ve="3">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_POWER</Str>
-			<Str sr="arg1" ve="3">usb</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task50">
+	<Task sr="task83">
 		<cdate>1362624153379</cdate>
 		<edate>1362624178908</edate>
-		<id>50</id>
-		<Action sr="act0" ve="3">
+		<id>83</id>
+		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%EX_POWER</Str>
 			<Str sr="arg1" ve="3">wireless</Str>
@@ -559,11 +424,78 @@
 			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task52">
+	<Task sr="task84">
+		<cdate>1364255955464</cdate>
+		<edate>1364383679229</edate>
+		<id>84</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%EX_USER</Str>
+			<Str sr="arg1" ve="3">absent</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task88">
+		<cdate>1349830649914</cdate>
+		<edate>1364250390201</edate>
+		<id>88</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
+			<Str sr="arg1" ve="3">%UIMODE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task89">
+		<cdate>1362623875045</cdate>
+		<edate>1362623903910</edate>
+		<id>89</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%EX_POWER</Str>
+			<Str sr="arg1" ve="3">ac</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task90">
+		<cdate>1362624038315</cdate>
+		<edate>1362624058050</edate>
+		<id>90</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%EX_POWER</Str>
+			<Str sr="arg1" ve="3">usb</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task91">
+		<cdate>1330314242696</cdate>
+		<edate>1364242454382</edate>
+		<id>91</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
+			<Str sr="arg1" ve="3">car</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%EX_UIMODE</lhs>
+					<op>2</op>
+					<rhs>normal</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task92">
 		<cdate>1330314242462</cdate>
 		<edate>1339264097450</edate>
-		<id>52</id>
-		<Action sr="act0" ve="3">
+		<id>92</id>
+		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%EX_PHONE</Str>
 			<Str sr="arg1" ve="3">ringing</Str>
@@ -571,23 +503,47 @@
 			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task64">
-		<cdate>1330314242731</cdate>
-		<edate>1339264088178</edate>
-		<id>64</id>
-		<Action sr="act0" ve="3">
+	<Task sr="task93">
+		<cdate>1364255922120</cdate>
+		<edate>1364350546169</edate>
+		<id>93</id>
+		<Action sr="act0" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_PHONE</Str>
-			<Str sr="arg1" ve="3">offhook</Str>
+			<Str sr="arg0" ve="3">%EX_USER</Str>
+			<Str sr="arg1" ve="3">present</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task66">
+	<Task sr="task94">
+		<cdate>1365095346662</cdate>
+		<edate>1365095380108</edate>
+		<id>94</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%EX_USER</Str>
+			<Str sr="arg1" ve="3">absent</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task95">
+		<cdate>1364255922120</cdate>
+		<edate>1364255945537</edate>
+		<id>95</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%EX_USER</Str>
+			<Str sr="arg1" ve="3">present</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task97">
 		<cdate>1330314242729</cdate>
 		<edate>1339264077401</edate>
-		<id>66</id>
-		<Action sr="act0" ve="3">
+		<id>97</id>
+		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%EX_PHONE</Str>
 			<Str sr="arg1" ve="3">idle</Str>
@@ -595,39 +551,35 @@
 			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task73">
-		<cdate>1339950700457</cdate>
-		<edate>1365094845483</edate>
-		<id>73</id>
-		<Action sr="act0" ve="3">
+	<Task sr="task98">
+		<cdate>1330314242731</cdate>
+		<edate>1339264088178</edate>
+		<id>98</id>
+		<Action sr="act0" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%EX_TRUSTEDWIFI</Str>
-			<Str sr="arg1" ve="3">true</Str>
+			<Str sr="arg0" ve="3">%EX_PHONE</Str>
+			<Str sr="arg1" ve="3">offhook</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task89">
-		<cdate>1364352319254</cdate>
-		<edate>1365735337458</edate>
-		<id>89</id>
-		<Action sr="act0" ve="3">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act1" ve="3">
+	<Task sr="task99">
+		<cdate>1330314242714</cdate>
+		<edate>1364190023398</edate>
+		<id>99</id>
+		<Action sr="act0" ve="7">
 			<code>547</code>
-			<lhs>%PACTIVE</lhs>
-			<op>12</op>
-			<rhs>,EX_TRUSTEDWIFI,</rhs>
-			<Str sr="arg0" ve="3">%EX_TRUSTEDWIFI</Str>
-			<Str sr="arg1" ve="3">false</Str>
+			<Str sr="arg0" ve="3">%EX_UIMODE</Str>
+			<Str sr="arg1" ve="3">desk</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%EX_UIMODE</lhs>
+					<op>2</op>
+					<rhs>normal</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 </TaskerData>
